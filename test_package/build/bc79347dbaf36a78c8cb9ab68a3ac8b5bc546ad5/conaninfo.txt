@@ -1,0 +1,40 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.exception=seh
+    compiler.libcxx=libstdc++
+    compiler.threads=posix
+    compiler.version=8.1
+    os=Windows
+
+[requires]
+    b2sum_installer/20190808.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.exception=seh
+    compiler.libcxx=libstdc++
+    compiler.threads=posix
+    compiler.version=8.1
+    os=Windows
+
+[full_requires]
+    b2sum_installer/20190808:b7cbe5d3086702cbac04c1a5664080306e0a7d0a
+
+[full_options]
+    b2sum_installer:static_linkage=True
+
+[recipe_hash]
+
+
+[env]
+    CC=C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe
+    CONAN_MAKE_PROGRAM=C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\mingw32-make.exe
+    CXX=C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe
+    PATH=[C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin]

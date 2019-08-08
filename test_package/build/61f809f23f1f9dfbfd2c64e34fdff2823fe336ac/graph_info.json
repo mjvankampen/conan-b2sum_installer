@@ -1,0 +1,14 @@
+{
+ "options": [
+  [
+   "b2sum_installer:static_linkage",
+   "True"
+  ]
+ ],
+ "root": {
+  "name": null,
+  "version": null,
+  "user": null,
+  "channel": null
+ }
+}
