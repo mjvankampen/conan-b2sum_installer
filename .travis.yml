@@ -25,6 +25,3 @@ install:
 script:
   - chmod +x .ci/run.sh
   - ./.ci/run.sh
-
-after_success:
-  - python .ci/testing.py
